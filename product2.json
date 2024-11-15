@@ -1,0 +1,209 @@
+[
+    {
+         
+        "image": "image/catlist.jpg (2).png",
+        "title": "Breed Dry Dog Food",
+        "price": "$100",
+        "currentPrice": "$120",
+        "ratings": 35,
+        "quickView": "image/Quick View.png",
+        "vector": "image/Vector (1).svg"
+    },
+    {
+        "image": "image/motor1.png",
+        "title": "CANON EOS DSLR Camera",
+        "price": "$360",
+        "ratings": 95,
+        "currentPrice": "$120",
+        
+        "quickView": "image/Quick View.png",
+        "vector": "image/Vector (1).svg"
+    },
+    {
+        "image": "image/Frame 604.png",
+        "title": "ASUS FHD Gaming Laptop",
+        "price": "$700",
+        "ratings": 325,
+        "currentPrice": "$120",
+        
+        "quickView": "image/Quick View.png",
+        "vector": "image/Vector (1).svg"
+    },
+    {
+        "image": "image/curology-j7pKVQrTUsM-unsplash 1.png",
+        "title": "Curology Product Set",
+        "price": "$500",
+        "currentPrice": "$120",
+        
+        "ratings": 145,
+        "quickView": "image/Quick View.png",
+        "vector": "image/Vector (1).svg"
+    },
+    {
+        "image": "image/newcar.png",
+        "title": "Kids Electric Car",
+        "currentPrice": "$960",
+        "ratings": 65,
+        "vector": "image/Vector (1).svg",
+        "quickView": "image/Quick View.png",
+        "roundImage": "image/red-red1.png"
+        
+        
+        
+    },
+    {
+        "image": "image/Frame 608 (1).png",
+        "title": "Jr.Zoom Soccer Cleats",
+        "price": "$1160",
+        "currentPrice": "$120",
+        "ratings": 35,
+         "vector": "image/Vector (1).svg",
+        "quickView": "image/Quick View.png",
+          "roundImage": "image/yellow-red.png"
+       
+    },
+    {
+        "image": "image/gamer.png",
+        "title": "GP11 Shooter USB Gamepad",
+        "price": "$660",
+        "currentPrice": "$120",
+        "ratings": 55,
+         "vector": "image/Vector (1).svg",
+        "quickView": "image/Quick View.png",
+        "roundImage": "image/red-red1.png"
+       
+    },
+    {
+        "image": "image/jacket.png",
+        "title": "Quilted Satin Jacket",
+        "price": "$660",
+        "currentPrice": "$120",
+        "ratings": 55,
+         "vector": "image/Vector (1).svg",
+        "quickView": "image/Quick View.png",
+         "roundImage": "image/red-red1.png"
+        
+    },
+    {
+        "image": "image/red-gamer.png",
+        "title": "HAVIT HV-G92 Gamepad",
+        "currentPrice": "$120",
+        "oldPrice": "$160",
+        "ratings": 88,
+        "quickView": "image/Quick View.png",
+        "vector": "image/Vector (1).svg",
+        "discount": "-40%"
+    }, 
+    {
+        "image": "image/ak-900-01-500x500 1.png",
+        "title": "Ak-900 Wired keyboard",
+        "currentPrice": "$120",
+        "oldPrice": "$160",
+        "ratings": 88,
+        "quickView": "image/Quick View.png",
+        "vector": "image/Vector (1).svg",
+         "discount": "-35%"
+        
+    },
+    {
+        "image": "image/Frame 613.png",
+        "title": "Ips LCD Gaming Monitor",
+        "currentPrice": "$120",
+        "oldPrice": "$160",
+        "ratings": 88,
+        "quickView": "image/Quick View.png",
+        "vector": "image/Vector (1).svg",
+         "discount": "-30%"
+       
+    },
+    {
+        "image": "image/Frame 610.png",
+        "title": "RGB liquid CPU Cooler",
+        "currentPrice": "$120",
+        "oldPrice": "$160",
+        "ratings": 88,
+        "quickView": "image/Quick View.png",
+        "vector": "image/Vector (1).svg",
+        "discount": ""
+    },
+    {
+        "title": "Breed Dry Dog Food",
+        "image": "image/catlist.jpg (2).png",
+        "vector": "image/Vector (1).svg",
+        "quickView": "image/Quick View.png",
+        "currentPrice": "$100",
+        "oldPrice": null,
+        "ratings": 35,
+        "roundImage": null
+    },
+    {
+        "title": "CANON EOS DSLR Camera",
+        "image": "image/motor1.png",
+        "vector": "image/Vector (1).svg",
+        "quickView": "image/Quick View.png",
+        "currentPrice": "$360",
+        "oldPrice": null,
+        "ratings": 95,
+        "roundImage": null
+    },
+    {
+        "title": "ASUS FHD Gaming Laptop",
+        "image": "image/Frame 604.png",
+        "vector": "image/Vector (1).svg",
+        "quickView": "image/Quick View.png",
+        "currentPrice": "$700",
+        "oldPrice": null,
+        "ratings": 325,
+        "roundImage": null
+    },
+    {
+        "title": "Curology Product Set",
+        "image": "image/curology-j7pKVQrTUsM-unsplash 1.png",
+        "vector": "image/Vector (1).svg",
+        "quickView": "image/Quick View.png",
+        "currentPrice": "$500",
+        "oldPrice": null,
+        "ratings": 145,
+        "roundImage": null
+    },
+    {
+        "title": "Kids Electric Car",
+        "image": "image/newcar.png",
+        "vector": "image/Vector (1).svg",
+        "quickView": "image/Quick View.png",
+        "currentPrice": "$960",
+        "oldPrice": null,
+        "ratings": 65,
+        "roundImage": "image/red-red1.png"
+    },
+    {
+        "title": "Jr.Zoom Soccer Cleats",
+        "image": "image/Frame 608 (1).png",
+        "vector": "image/Vector (1).svg",
+        "quickView": "image/Quick View.png",
+        "currentPrice": "$1160",
+        "oldPrice": null,
+        "ratings": 35,
+        "roundImage": "image/yellow-red.png"
+    },
+    {
+        "title": "GP11 Shooter USB Gamepad",
+        "image": "image/gamer.png",
+        "vector": "image/Vector (1).svg",
+        "quickView": "image/Quick View.png",
+        "currentPrice": "$660",
+        "oldPrice": null,
+        "ratings": 55,
+        "roundImage": "image/black-red.png"
+    },
+    {
+        "title": "Quilted Satin Jacket",
+        "image": "image/jacket.png",
+        "vector": "image/Vector (1).svg",
+        "quickView": "image/Quick View.png",
+        "currentPrice": "$660",
+        "oldPrice": null,
+        "ratings": 55,
+        "roundImage": "image/violet-red.png"
+    }
+]

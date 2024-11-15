@@ -1,107 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exclusive</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+
 </head>
+<body>
+    <div class="container">
+      
+            <div class="announcement-bar">
+                <div class="content">
+                    Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! 
+                    <a href="#" class="shop-now">Shop Now</a>
+                </div>
+        
+                <div class="lang">
+                    <span>English</span>
+                    <a href="#"><img src="image/DropDown.png" alt="Dropdown"></a>
+                </div>
+            </div>
 
-<body> 
-    <div class="announcement-bar">
-        <div class="content">
-            Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
-            <a href="#" class="shop-now">Shop Now</a>
-        </div>
-
-        <div class="lang">
-            <span>English</span>
-            <a href="#"><img src="assets/image/DropDown.png" alt="Dropdown"></a>
-        </div>
+        
     </div>
-    <!-- MOBILE-MENU -->
-    <nav class="mobile-menu">
-        <div class="logo">
-            <h1>
-                <img src="assets/image/Exclusive.png" alt="logo-icon" />
-            </h1>
-        </div>
-
-        <div class="divide">
-            <div class="center">
-                <div class="search">
-                    <img src="assets/image/Wishlist.png" alt="search-icon" />
-                </div>
-                <div class="contact">
-                    <img src="assets/image/Cart1 with buy.png" alt="contact-icon" />
-                </div>
-            </div>
-            <div class="menu-icon" id="menu-icon" onclick="this.classList.toggle('open')">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-        <ul class="nav-links" id="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Contat</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Signup</a></li>
-            <li><a href="#" class="sign-up">Sign Up</a></li>
-            <div class="form">
-                <form action=""><input type="text" placeholder="What are you looking for?">
-                    <div class="icon"><img src="assets/image/Component 2.png" alt="search-icon"></div>
-                </form>
-            </div>
-        </ul>
-    </nav>
-    <!-- HEADER -->
+  
     <header>
-        <section class="wrapper">
-            <div class="main-container">
-                <div class="left">
-                    <div class="image">
-                        <img src="assets/image/Exclusive.png" alt="logo-icon" />
-                    </div>
-                </div>
-                <nav class="middle">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">SignUp</a></li>
-                    </ul>
-                </nav>
-
-                <div class="right">
-                    <div class="form">
-                        <form action=""><input type="text" placeholder="What are you looking for?">
-                            <div class="icon"><img src="assets/image/Component 2.png" alt="search-icon"></div>
-                        </form>
-                    </div>
-                    <div class="search">
-                        <img src="assets/image/Wishlist.png" alt="search-icon" />
-                    </div>
-                    <div class="contact">
-                        <img src="assets/image/Cart1 with buy.png" alt="contact-icon" />
-                    </div>
-                </div>
+        <div class="header">
+            <div class="brand">Exclusive</div>
+            <div class="menu-icon">
+                <i class="fas fa-bars"></i>
             </div>
-        </section>
+            <div class="menu">
+                <!-- Close icon inside menu, above navlinks -->
+               
+                <ul class="navlinks">
+                    <div class="close">
+                        <div class="close-icon" style="display: none;">
+                            <i class="fa-solid fa-square-xmark"></i>
+                        </div>
+                    </div>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input type="text"class="search-field" placeholder="What are you looking for?">
+                <img src="image/Component 2.png" href="component 2"/>
+            </div>
+            <div class="icon">
+                <a href=""><img src="image/Wishlist.png" href="wishlist"/></a>
+                <a href=""><img src="image/Cart1 with buy.png" href="wishlist"/></a> 
+            </div>
+        </div>
     </header>
+    
     <section id="spotlight">
         <div class="wrapper">
             <div class="promo-content">
-                <a href=""><img src="assets/image/1200px-Apple_gray_logo 1.png" href="apple_gray" /></a>
-                <h4>iphone 14 series</h4>
-                <h1>Up to 10% off Voucher</h1>
-                <a href="#" class="shop-now">Shop Now</a>
-                <img src="assets/image/icons arrow-right.png" href="arrow" />
+               <a href=""><img class=apple src="image/1200px-Apple_gray_logo 1.png" href="apple_gray"/></a>
+               <h4>iphone 14 series</h4>
+               <h1>Up to 10% off Voucher</h1>
+               <a href="#" class="shop-now">Shop Now</a>
+               <hr line/>
+               <img class="arrow"src="image/icons arrow-right.png" href="arrow"/>
             </div>
             <div class="promo-image">
-                <img src="assets/image/hero_endframe__cvklg0xk3w6e_large 2.png" alt="iPhone 14 Image">
+                <img class=iphone src="image/hero_endframe__cvklg0xk3w6e_large 2.png" alt="iPhone 14 Image">
             </div>
         </div>
     </section>
@@ -115,29 +84,27 @@
     </section>
     <section id="products-list">
         <div class="wrapper">
-            <div id="product-grid">
-
-            </div>
-        </div>
-        <div class="view">
-            <a href="main.html" id="btn-view">View All Products</a>
-        </div>
+        <div id="product-grid">
+            
+        </div> 
+    </div> 
+    <a href="main.html" id="btn-view">View All Products</a>
     </section>
     <section id="tracking">
         <div class="wrapper">
             <div class="vehicle-menu">
                 <div class="delivery">
-                    <img src="assets/image/Services (2).png" />
+                    <img src="image/Services (2).png"/>
                     <h2>FREE AND FAST DELIVERY</h2>
                     <P>Free delivery for all orders over $140</P>
                 </div>
                 <div class="delivery">
-                    <img src="assets/image/Services (1).png" />
+                    <img src="image/Services (1).png"/>
                     <h2>24/7 CUSTOMER SERVICE</h2>
                     <P>Friendly 24/7 customer support</P>
                 </div>
                 <div class="delivery">
-                    <img src="assets/image/Services (3).png" />
+                    <img src="image/Services (3).png"/>
                     <h2>MONEY BACK GUARANTEE</h2>
                     <P>We return money within 30 days</P>
                 </div>
@@ -148,91 +115,90 @@
     <footer>
         <div class="wrapper">
             <div class="main-section">
-                <div class="footer-section">
-                    <h3>Exclusive</h3>
-                    <p class="para1">Subscribe</p>
-                    <p>Get 10% off your first order</p>
-                    <form class="email-form">
-                        <input type="email" placeholder="Enter your email" required>
-                        <img src="assets/image/Vector (1).png" href="" />
-                    </form>
+            <div class="footer-section">
+                <h3 class="exclusive">Exclusive</h3>
+                <p class="para1">Subscribe</p>
+                <p>Get 10% off your first order</p>
+                <form class="email-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <img src="image/Vector (1).png" href=""/> 
+                </form>
+            </div>
+
+            <div class="second-section">
+                <h3>Support</h3>
+                <p class="dhaka">111 Bijoy Sarani, Dhaka,DH 1515, Bangladesh.</p>
+                <p class="email">exclusive@gmail.com</p>
+                <p class="phone">+88015-88888-9999</p>
+            </div>
+
+            <div class="third-section">
+                <h3>Account</h3>
+                <ul>
+                    <li>My Account</li>
+                    <li>Login / Register</li>
+                    <li>Cart</li>
+                    <li>Wishlist</li>
+                    <li>Shop</li>
+                </ul>
+            </div>
+
+            <div class="fourth-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li>Privacy Policy</li>
+                    <li>Terms Of Use</li>
+                    <li>FAQ</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+            <div class="fifth-section">
+                <h3>Download App</h3>
+                <p>Save $3 with App New User Only</p>
+                <div class="qrcode">
+                    <a href="#"><img src="image/Qr Code.png"></a>
                 </div>
-
-                <div class="second-section">
-                    <h3>Support</h3>
-                    <p>111 Bijoy Sarani, Dhaka,DH 1515, Bangladesh.</p>
-                    <p class="email">exclusive@gmail.com</p>
-                    <p class="phone">+88015-88888-9999</p>
-                </div>
-
-                <div class="third-section">
-                    <h3>Account</h3>
-                    <ul>
-                        <li>My Account</li>
-                        <li>Login / Register</li>
-                        <li>Cart</li>
-                        <li>Wishlist</li>
-                        <li>Shop</li>
-                    </ul>
-                </div>
-
-                <div class="fourth-section">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li>Privacy Policy</li>
-                        <li>Terms Of Use</li>
-                        <li>FAQ</li>
-                        <li>Contact</li>
-                    </ul>
-                </div>
-
-                <div class="fifth-section">
-                    <h3>Download App</h3>
-                    <p>Save $3 with App New User Only</p>
-                    <div class="qrcode">
-                        <a href="#"><img src="assets/image/Qr Code.png"></a>
-                    </div>
-                    <div class="store-buttons">
-                        <div class="store-item1">
-                            <img src="assets/image/playstore (2).png" alt="Google Play Logo">
-                            <div class="store-text1">
-                                <h4>GET IT ON</h4>
-                                <h2>Google Play</h2>
-                            </div>
-                        </div>
-
-                        <div class="store-item2">
-                            <img src="assets/image/1200px-Apple_gray_logo 1.png" alt="Apple App Store Logo">
-                            <div class="store-text2">
-                                <h4>Download on the</h4>
-                                <h2>App Store</h2>
-                            </div>
+                <div class="store-buttons">
+                    <div class="store-item1">
+                        <img src="image/playstore (2).png" alt="Google Play Logo">
+                        <div class="store-text1">
+                            <h4>GET IT ON</h4>
+                            <h2>Google Play</h2>
                         </div>
                     </div>
-
-                    <div class="social-icons">
-                        <a href="#"><img src="assets/image/Icon-Facebook.png" href="facebook"></a>
-                        <a href="#"><img src="assets/image/Icon-Twitter.png" href="twitter"></a>
-                        <a href="#"><img src="assets/image/icon-instagram.png" href="instagram"></a>
-                        <a href="#"><img src="assets/image/Icon-Linkedin.png" href="linkdin"></a>
+                    
+                    <div class="store-item2">
+                        <img src="image/1200px-Apple_gray_logo 1.png" alt="Apple App Store Logo">
+                        <div class="store-text2">
+                            <h4>Download on the</h4>
+                            <h2>App Store</h2>
+                        </div>
                     </div>
+                </div>
+                
+                <div class="social-icons">
+                    <a href="#"><img src="image/Icon-Facebook.png" href="facebook"></a>
+                    <a href="#"><img src="image/Icon-Twitter.png" href="twitter"></a>
+                    <a href="#"><img src="image/icon-instagram.png" href="instagram"></a>
+                    <a href="#"><img src="image/Icon-Linkedin.png" href="linkdin"></a>
                 </div>
             </div>
         </div>
+        </div>
+        <div class="bottom-section">
+          <div class="border">
+            <div class="mid-class">
+            <img src="image/Group.png" alt=""/>
+            <p>Copyright Rimel 2022. All right reserved</p>
+             </div>
+          </div>
+        </div>
 
-
+       
     </footer>
 
-    <script>
-        const menuIcon = document.getElementById("menu-icon");
-        const navLinks = document.getElementById("nav-links");
 
-        menuIcon.addEventListener("click", () => {
-            navLinks.classList.toggle("active");
-            menuIcon.classList.toggle("active");
-        });
-    </script>
-    <script src="js/script.js" defer></script>
+    <script src="script.js" defer></script>
 </body>
-
-</html>
+</html> 
