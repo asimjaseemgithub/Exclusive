@@ -447,13 +447,12 @@ hr {
 }
 
 
-#products-list .wrapper #product-grid .product-items img:nth-child(1) {
+#products-list .wrapper #product-grid .product-items img{
     width: 50%;
+    height: auto;
+    
 }
 
-#products-list .wrapper #product-grid .product-items img {
-    width: 70%;
-}
 
 #products-list .wrapper #product-grid .product-items .position-vector img {
     position: absolute;
